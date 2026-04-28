@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* uncomment if you run into body overflow issue from margin collapse */
+/* html {
+    padding: .1px;
+} */
+body {
+    height: 100%;
+}

@@ -1,0 +1,76 @@
+/* var colors
+not using them just don't want to keep tracking them down
+:root {
+    --white: #e4e4e4;
+    --green: #91do6c;
+    --blue: #427ab5;
+    --dark-blue: #161E54;
+    --orange: #F45B26
+    --yellow: #FFDE42;
+}
+*/
+body {
+    background-color: #91d06c;
+    color: #161E54;
+    padding: 5% 27.5%;
+    font-family: "DM Sans", sans-serif;
+}
+img {
+    width: auto;
+    height: 150px;
+    margin: auto 0 auto auto;
+}
+ul, ol {
+    margin: 0 20px;
+}
+a {
+    color: #F45B26;
+}
+h1, h2, h3, h4 {
+    font-family: "Space Grotesk", sans-serif;
+}
+h1 {
+    margin: 8px auto;
+    color: #e4e4e4;
+}
+h2 {
+    color: #427ab5;
+    margin: 15px 0 0;
+}
+h3 {
+    color: #F45B26;
+    font-style: italic;
+    margin: 10px;
+}
+li {
+    margin: 5px;
+}
+p, .wrapper, .header, .main {
+    padding: 8px;
+}
+img, .nav, .button, .header, .main {
+    border: solid #161E54;
+}
+.nav {
+    background: #F45B26;
+    border-width: 3px 3px 0;
+}
+.button {
+    display: block;
+    margin: -3px -3px -3px auto;
+    padding: 3px 6px;
+    background: #FFDE42;
+    width: fit-content;
+}
+.nav a {
+    color:#161E54;
+
+}
+.header {
+    background-color: #427ab5;
+    border-width: 3px;
+}
+.main {
+    background-color: #e4e4e4;
+    border-width: 0 3px 3px;
+}
